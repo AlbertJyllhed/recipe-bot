@@ -16,6 +16,7 @@ function App() {
 
     return (
         <main>
+            <h1>ReceptBot</h1>
             <RecipeForm onSubmitRecipe={handleGenerateRecipe} />
             <RecipeCard recipe={recipe} />
         </main>

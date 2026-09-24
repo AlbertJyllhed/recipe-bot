@@ -3,18 +3,30 @@ main {
     margin: auto;
 }
 
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
 .container {
-    background-color: #eee;
+    background-image: linear-gradient(0, transparent, var(--container));
+    color: #fff;
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
 }
 
+.container h2 {
+    margin: 0;
+    padding: 0;
+}
+
 .inner-container {
-    background-color: #fff;
+    background-color: var(--foreground);
     padding: 1rem;
     border-radius: 0.5rem;
 }
